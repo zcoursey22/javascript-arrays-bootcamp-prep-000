@@ -13,6 +13,10 @@ function accessElementInArray(array, index) {
   return array[index];
 }
 
+function removeElementFromBeginningOfArray(array) {
+  return array.shift()
+}
+
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array.shift()
 }
